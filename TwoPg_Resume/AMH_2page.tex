@@ -1,0 +1,594 @@
+\documentclass[10pt]{article}
+
+\usepackage[letterpaper, portrait, margin = 1in]{geometry}
+\usepackage[sort]{natbib}
+\usepackage{fancyhdr}
+\usepackage{graphicx, wrapfig}
+\usepackage{amsmath}
+\usepackage{breqn}
+\usepackage{tabto}
+% you may include other packages here (next line)
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage[letterspace=100]{microtype}
+\usepackage{url}
+\usepackage{hyperref}
+
+\definecolor{navy_blue}{cmyk}{0.0, 0, 0, 1}%{rgb}{0.0, 0.108, 0.58}
+\definecolor{mich_yellow}{cmyk}{0.0, 0, 0, 1}%{cmyk}{0.0, 0.17, 1.0, 0.30}
+
+\definecolor{mich_gold}{cmyk}{0.0, 0.17, 1.0, 0.30}
+
+%----- you must not change this -----------------
+\oddsidemargin -0.6cm
+\topmargin -2.5cm
+\footskip 1.0cm
+\textheight 24.25cm
+\textwidth 17.25cm
+\parindent=0pt
+\parskip 0.5ex
+\renewcommand{\baselinestretch}{1.0}
+%\pagestyle{fancy}
+%----------------------------------------------------
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=black,
+}
+
+
+% enter your details here----------------------------------
+
+%\lhead{\normalsize \textrm{SPACE 477 Paper Critique 1}}
+%\chead{}
+%\rhead{\normalsize \textit{Computational Fluid Dynamics}}
+%\lfoot{\normalsize \textit{AE 523, Fall 2016}}
+%\rfoot{\textit{Agnit Mukhopadhyay}}
+%\setlength{\fboxrule}{4pt}\setlength{\fboxsep}{2ex}
+%\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% enter your details here----------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[L]{Top Left}
+%\fancyhead[L]{\small{Mukhopadhyay, NESSF 2018/19 - Sources of 
+%		Ionospheric Conductance}}%: Balance and Impacts}}
+%\fancyhead[R]{Top Right}
+
+\fancyfoot[C]{Agnit Mukhopadhyay $|$ Curriculum Vit\ae  \vspace{0.01em} (Updated \today) \hfill \thepage}
+
+\renewcommand{\headrulewidth}{0pt}
+	
+\begin{document}\thispagestyle{plain}
+%----------------your title below -----------------------------
+
+\begin{center}
+{\Large \textit{Curriculum Vit\ae}}\\ \vspace{0.5em}
+\href{http://clasp.engin.umich.edu/people/agnitm/}{\Huge\textsc{\lsstyle Agnit Mukhopadhyay}}\\ %\vspace{0.75em}
+%\large Address: 2744 Hayward Street, Ann Arbor MI 48105\\
+Climate \& Space Sciences Department $\bullet$ University of Michigan\\
+2455 Hayward Street, Ann Arbor, MI 48109\\
+%Phone: (734)-881-0625\\
+\href{mailto:agnitm@umich.edu}{agnitm@umich.edu} $\bullet$
+\href{https://clasp.engin.umich.edu/people/agnitm/}{clasp.engin.umich.edu/people/agnitm/}
+\end{center}
+\vspace{-1.75em}
+
+%---------------- start of document body------------------
+
+%%%%%%%%%%%%%%%----------------Education-------------------%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\noindent\rule[0.5ex]{\linewidth}{0.5pt}\\
+\vspace{-0.5em} \large{\textsc{Education}} \\
+\vspace{-0.25em} \noindent\rule[0.5ex]{\linewidth}{0.5pt}}\\
+\end{center}
+\vspace{-0.75em}
+
+\href{http://clasp.engin.umich.edu/academics/graduate/doctoral}{\textsc{Doctor of Philosophy}} in \href{http://clasp.engin.umich.edu/}{Space Sciences} \& Scientific Computing
+%\textsc{Doctor of Philosophy} in {Space Sciences and Scientific Computing}
+$|$ \textsc{{\href{http://umich.edu/}{{University of Michigan}}}} \hfill {2017 - 21}\\
+\emph{Topic}: \href{http://clasp.engin.umich.edu/research/space/MITPhysics}
+{Sources of Ionospheric Conductance - Balance and Impact}\\
+\emph{Advisors}: \href{https://www.uta.edu/physics/faculty/welling-daniel.php}{Prof. Daniel T. Welling} \& \href{http://clasp.engin.umich.edu/people/liemohn/FACULTY}{Prof. Michael W. Liemohn}\\
+\emph{Present Status}: Candidate
+
+%  \vspace{0.5em}
+%  \href{http://clasp.engin.umich.edu/academics/graduate/ms}{\textsc{Master of Science}} in \href{http://clasp.engin.umich.edu/academics/graduate}{Space Sciences} $|$ \textsc{{\href{http://umich.edu/}{ {University of Michigan}}}} \hfill {2017 - 19}%\\ 
+
+% %\emph{Academic Advisor}: Prof. Kenneth Powell $|$ 
+% \emph{Advisors}: \href{http://clasp.engin.umich.edu/people/dwelling/FACULTY}{Dr. Daniel T. Welling}, \href{http://clasp.engin.umich.edu/people/liemohn/FACULTY}{Prof. Michael W. Liemohn}.
+% \emph{Expected Winter 2019}
+
+
+\vspace{0.5em}
+\href{https://aero.engin.umich.edu/academics/graduate/mse/}{\textsc{Master of Science}} in \href{https://aero.engin.umich.edu/}{Aerospace Engineering} $|$ \textsc{{\href{http://umich.edu/}{ {University of Michigan}}}} \hfill {2016 - 18}\\ 
+%\emph{Academic Advisor}: Prof. Kenneth Powell $|$ 
+\emph{Specialization}: \href{https://aero.engin.umich.edu/research/areas/gas/}{Gas Dynamics} % \textit{Expected Winter 2018}
+
+\vspace{0.5em}
+\href{http://www.pec.ac.in/programmes/ug/structure}{\textsc{Bachelor of Technology}} in \href{http://www.pec.ac.in/aero}{Aerospace Engineering} $|$ \href{http://www.pec.ac.in/}{\textsc{{Punjab Engineering College}}} \hfill {2012 - 16} \\
+\emph{Specialization}: \href{http://www.pec.ac.in/aero/peo}{Aerodynamics \& Gas Propulsion}
+%\emph{Advisors}: Prof. Tejinder K. Jindal, Prof. Kishori L. Manchanda
+
+\vspace{-0.75em}
+
+%%%%%%%%%%%%%%%----------------Research Exp-------------------%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\noindent\rule[0.5ex]{\linewidth}{0.5pt}\\
+\vspace{-0.5em}\large{\textsc{Research Experience}}
+\\ \vspace{-0.25em}
+\noindent\rule[0.5ex]{\linewidth}{0.5pt}}
+\end{center}
+
+\vspace{-1em}
+\textbf{Graduate Student Research Assistant}, {{University of Michigan, Ann Arbor}} \hfill \normalsize{2017 - Present}\\ 
+%Climate and Space Sciences $|$ \normalsize{\textit{Advisors}: Prof. Michael Liemohn, Prof. Daniel Welling} \\
+Funded through the \emph{NASA Earth and Space Sciences Fellowship (2018 - 21)}.
+
+\vspace{0.35em}
+\textbf{Visiting Research Scholar}, {{University of Texas at Arlington}} \hfill \normalsize{Summer 2019}\\ 
+%Department of Physics $|$ \normalsize{\textit{Advisor}: Prof. Daniel Welling} \\
+Funded through the \emph{Rackham Research Grant Fellowship (2019)}.
+
+\vspace{0.35em}
+\textbf{Research Assistant}, {{Punjab Engineering College, Chandigarh}} \hfill 2013 - 16 %\\
+%Aerospace Engineering $|$
+%\normalsize{\textit{Mentors}: Prof. K. L. Manchanda, Prof. Sanjeev Kumar
+
+\vspace{0.35em}
+\textbf{Visiting Summer Scholar}, {{Indian Institute of Science, Bangalore}} \hfill Spring 2015 %\\ 
+%Joint Astrophysics Programme $|$
+%\normalsize{\textit{Mentor}: Prof. Banibrata Mukhopadhyay}
+
+\vspace{0.35em}
+\textbf{Exchange Research Student}, {{Indian Institute of Technology, Kanpur}} \hfill Winter 2015 %\\
+%Aerospace Engineering $|$ \normalsize{\textit{Mentor}: Prof. Rakesh Kumar Mathpal}
+
+\vspace{0.35em}
+\textbf{Summer Intern}, {{Indian Institute of Technology, Madras}} \hfill Spring 2014 %\\
+%Aerospace Engineering $|$ \normalsize{\textit{Mentor}: Prof. Sunetra Sarkar }
+
+\vspace{0.35em}
+\textbf{Research Intern}, {{Indian Institute of Technology, Bombay}} \hfill 2013 - 14 %\\
+%Aerospace Engineering $|$ \normalsize{\textit{Mentor}: Prof. R. S. Pant}
+
+\vspace{-0.75em}
+
+%%%%%%%%%%%%%%%----------------Teaching Exp-------------------%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\noindent\rule[0.5ex]{\linewidth}{0.5pt}\\
+\vspace{-0.5em}\large{\textsc{Teaching Experience}}
+\\ \vspace{-0.25em}
+\noindent\rule[0.5ex]{\linewidth}{0.5pt}}
+\end{center}
+
+\vspace{-1em}
+\textbf{Grading Assistant}, {{University of Michigan, Ann Arbor}} \hfill \normalsize{2017 - 2018}\\ 
+Gas Dynamics (225) $|$ Aerospace Engineering $|$ \normalsize{\textit{Course Instructor}: Prof. Mirko Gamba (Winter 2017)}\\
+Adv. Fluid Mechanics (551) $|$ Climate \& Space Sciences $|$ \normalsize{\textit{Course Instructor}: Prof. R Paul Drake (Fall 2018)}\\
+Adv. Fluid Mechanics (551) $|$ Climate \& Space Sciences $|$ \normalsize{\textit{Course Instructor}: Prof. Jeremy Bassis (Fall 2019)}
+
+\vspace{0.35em}
+\textbf{Teaching Assistant}, {{Punjab Engineering College, Chandigarh}} \hfill 2015 - 2016\\
+Aerospace Propulsion (215) $|$ Aerospace Engineering $|$
+\normalsize{\emph{Course Instructor}: Prof. T. K. Jindal (Winter)\\
+Propulsion \& Materials Lab (217) $|$ Aerospace Engineering $|$
+\normalsize{\emph{Course Instructor}: Prof. T. K. Jindal (Fall)
+
+\vspace{0.35em}
+\textbf{Teaching Aide}, {{Indian Institute of Technology, Bombay}} \hfill Winter 2015 \\ 
+Introduction to Aircraft Design $|$ Aerospace Engineering $|$
+\normalsize{\emph{Course Instructor}: Prof. R. S. Pant}
+
+\vspace{-0.5em}
+
+%%%%%%%%%%%%%%%----------------Awards-------------------%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+{\noindent\rule[0.5ex]{\linewidth}{0.5pt}\\
+\vspace{-0.5em}\large{\textsc{Honours, Fellowships \& Awards}}\\
+\vspace{-0.25em}
+\noindent\rule[0.5ex]{\linewidth}{0.5pt}}\\
+\end{center}
+
+\vspace{-0.85em}
+\begin{tabular}{p{15cm} p{4cm}}
+\href{http://clasp.engin.umich.edu/articles/view/890#.Ww3ySUgvw2x}{\textsc{\normalsize{NASA Earth and Space Sciences Fellowship}}} & \normalsize{2018 - 21}
+\end{tabular}
+
+\begin{tabular}{p{15.75cm} p{3.25cm}}
+{\textsc{\normalsize{Rackham Research Grant Fellowship (Pre-Candidate)}}} & \normalsize{2019}
+\end{tabular}
+
+%\begin{tabular}{p{15.75cm} p{3.25cm}}
+%{\textsc{\normalsize{NSF Geospace Environment Modeling Workshop - Best Student Poster Award}}} & \normalsize{2019}
+%\end{tabular}
+
+%\begin{tabular}{p{15.75cm} p{3.25cm}}
+%{\textsc{\normalsize{Michigan Geophysical Union - Best Poster Award}}} & \normalsize{2019}
+%\end{tabular}
+
+\begin{tabular}{p{15.75cm} p{3.25cm}}
+\href{http://mipse.umich.edu/fellowships.php}{\textsc{\normalsize{Michigan Institute of Plasma Sciences and Engineering Fellowship}}} & \normalsize{2018}
+\end{tabular}
+
+% \smallskip
+% \begin{tabular}{p{15.25cm} p{3.75cm}}
+% \textsc{\textcolor{navy_blue}{Michigan Institute of Plasma Sciences and Engineering (MIPSE) Fellowship}} & \normalsize{2018} %\\ 
+% %\fontsize{8}{9.6}\selectfont{\emph{Project: Statistical Comparison of the Magnetopause Distance and CPCP for Global MHD Models.}} &  
+% \end{tabular}
+
+\smallskip
+\begin{tabular}{p{15.75cm} p{3.25cm}}
+\textsc{\normalsize{UCAR/NASA-LWS Heliophysics Summer School Scholarship}} & \normalsize{2018} %\\ 
+%\fontsize{8}{9.6}\selectfont{\emph{Project: Statistical Comparison of the Magnetopause Distance and CPCP for Global MHD Models.}} &  
+\end{tabular}
+
+%\smallskip
+\begin{tabular}{p{15.75cm} p{3.25cm}}
+\href{https://ccmc.gsfc.nasa.gov/support/contest-2017/contestresults.php}{\textsc{\normalsize{NASA CCMC Student Research Contest Winner}}} & \normalsize{2017} %\\ 
+%\fontsize{8}{9.6}\selectfont{\emph{Project: Statistical Comparison of the Magnetopause Distance and CPCP for Global MHD Models.}} &  
+\end{tabular}
+
+% \smallskip
+% \begin{tabular}{p{15.25cm} p{3.75cm}}
+% \textsc{\textcolor{navy_blue}{GEM Conference Student Grant}} & \normalsize{2018} %\\ 
+% %\fontsize{8}{9.6}\selectfont{\emph{Project: Statistical Comparison of the Magnetopause Distance and CPCP for Global MHD Models.}} &  
+% \end{tabular}
+
+% \smallskip
+% \begin{tabular}{p{15.25cm} p{3.75cm}}
+% \textsc{\textcolor{navy_blue}{CEDAR Conference Student Grant}} & \normalsize{2017, 18} %\\ 
+% %\fontsize{8}{9.6}\selectfont{\emph{Project: Statistical Comparison of the Magnetopause Distance and CPCP for Global MHD Models.}} &  
+% \end{tabular}
+
+% \smallskip
+% \begin{tabular}{p{15.25cm} p{3.75cm}}
+% \textsc{\textcolor{navy_blue}{SHINE Conference Student Grant}} & \normalsize{2017} %\\ 
+% %\fontsize{8}{9.6}\selectfont{\emph{Project: Statistical Comparison of the Magnetopause Distance and CPCP for Global MHD Models.}} &  
+% \end{tabular}
+
+%\smallskip
+\begin{tabular}{p{15.75cm} p{3.25cm}}
+\href{http://www.pec.ac.in/events/46th-annual-convocation-pec-university-technology}{\normalsize{\textsc{Silver Medalist} \fontsize{9}{9.6}\selectfont{\emph{in Aerospace Engineering (equiv. to summa cum laude)}}}} & \normalsize{2016}    
+\end{tabular}
+
+%\smallskip
+\begin{tabular}{p{15.75cm} p{3.25cm}}
+\normalsize{\textsc{Institute Colour of Punjab Engineering College}} %\fontsize{9}{9.6}\selectfont{\emph{for exemplary leadership}}} 
+& \normalsize{2016} \\ 
+\end{tabular}
+
+%\smallskip
+%\begin{tabular}{p{15.75cm} p{3.25cm}}
+%\textcolor{navy_blue}{\textsc{Certificate of Excellence} \fontsize{9}{9.6}\selectfont{\emph{for scientific research at Punjab Engineering College}}} & \normalsize{2015} \\ 
+%\end{tabular}
+
+%\smallskip
+\begin{tabular}{p{15.75cm} p{3.25cm}}
+\textsc{\normalsize{ICICI Trinity Award Certificate of Appreciation}} & \normalsize{2014} 
+\end{tabular}
+
+%\smallskip
+%\begin{tabular}{p{15.75cm} p{3.25cm}}
+%\normalsize{\textsc{Gold Medalist} \fontsize{9}{9.6}\selectfont{\emph{in Grade X Final Examinations}}} & \normalsize{2010}\\ 
+%\end{tabular}
+
+%\smallskip
+%\begin{tabular}{p{15.75cm} p{3.25cm}}
+%\textsc{\normalsize{Air India RANK State \& District Awards}} & \normalsize{2008}
+%\end{tabular}
+
+%%%%%%%%%%%%%%%----------------Travel Grants-------------------%%%%%%%%%%%%%%%%
+
+%\vspace{-1.5em}
+%\begin{center}
+%{\noindent\rule[0.5ex]{\linewidth}{0.5pt}
+%\Large{\textsc{Travel Grants}}
+%\\
+%\noindent\rule[0.5ex]{\linewidth}{0.5pt}}
+%\end{center}
+%
+%\begin{tabular}{p{14.0cm} p{5cm}}
+%\textsc{\textcolor{mich_yellow}{CEDAR Conference Travel Grant}} & \normalsize{Summer 2017}\\ 
+%\fontsize{8.5}{9.6}\selectfont{\emph{Student grant to attend the Coupling, Energetics and Dynamics of Atmospheric Regions Conference}} &    
+%\end{tabular}
+
+%\smallskip
+%\begin{tabular}{p{14.0cm} p{5cm}}
+%\textsc{\textcolor{mich_yellow}{SHINE Conference Travel Grant}} & \normalsize{Summer 2017}
+%\fontsize{8.5}{9.6}\selectfont{\emph{Student grant to attend the Solar Heliospheric \& Interplanetary Environment Conference}} &    
+%\end{tabular}
+
+\vspace{-0.5em}
+%\medskip
+%\pagebreak
+
+%%%%%%%%%%%%%%%----------------Leadership-------------------%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\noindent\rule[0.5ex]{\linewidth}{0.5pt}\\
+\vspace{-0.5em}\large{\textsc{Outreach \& Service}}\\
+\vspace{-0.25em}
+\noindent\rule[0.5ex]{\linewidth}{0.5pt}}
+\end{center}
+
+\vspace{-1em}
+\begin{tabular}{p{4.1cm} p{12.65cm}}
+\textsc{{Leadership \& Service}} & 
+\end{tabular}
+\begin{tabular}{p{2.1cm} p{14.65cm}}
+%2019 - Present & Reviewer for Journal of Geophysical Research - Space Physics\\
+2019 - Present & Student Representative for NSF Geospace Environment Modeling (GEM) Workshop\\
+2019 - Present & Graduate Employee Organization (GEO) Steward for Climate \& Space, University of Michigan. \\
+2018 - Present & Peer Mentorship Organizing Committee Member, Climate \& Space, University of Michigan.\\
+2019 - 20 & Campus Lead of University of Michigan to the Indian Embassy in the USA. \\
+2017 - 18 & Secretary of the Indian Student Association (ISA) at the University of Michigan. \\
+%2015 - 16 & Joint Secretary of Astronomy and Space Physics Society at Punjab Engineering College.\\
+%2015 - 16 & Member of the Student Activities Council at Punjab Engineering College.\\
+%2012 - 15 & Physics and Math tutor for high school children (Grade X and above) from underprivileged families in Chandigarh through the National Service Scheme of India.
+\end{tabular}
+
+\begin{tabular}{p{2.1cm}p{14.65cm}}
+\textsc{{Affiliations}} & \\
+2017 - Present & American Geophysical Union \\
+2013 - Present & American Institute of Aeronautics and Astronautics\\
+2012 - Present & Aeronautical Society of India
+\end{tabular}
+
+%%%%%%%%%%%%%%%----------------Technical Skills-------------------%%%%%%%%%%%%%%%%
+
+\vspace{-0.5em}
+\begin{center}
+{\noindent\rule[0.5ex]{\linewidth}{0.5pt}\\
+\vspace{-0.5em}\large{\textsc{Technical Skills}}\\
+\vspace{-0.25em}
+\noindent\rule[0.5ex]{\linewidth}{0.5pt}}\\
+\end{center}
+
+\vspace{-0.5em}
+\begin{tabular}{p{4cm} p{15cm}}
+\textsc{{Languages}} & Python 2/3, FORTRAN 90, C/C++, \LaTeX, MATLAB \\ 
+\textsc{{Operating Systems}} & Linux, Windows, Mac\\
+\textsc{{Software}} & IDL, TecPlot, ANSYS, CATIA, Gambit, FLUENT, Microsoft Office, SWMF
+\end{tabular}
+
+%%%%%%%%%%%%%%%----------------Publications-------------------%%%%%%%%%%%%%%%%
+\vspace{-0.5em}
+\begin{center}
+{\noindent\rule[0.5ex]{\linewidth}{0.5pt}\\
+\vspace{-0.5em}\large{\textsc{Publications}}\\
+\vspace{-0.25em}
+\noindent\rule[0.5ex]{\linewidth}{0.5pt}}\\
+\vspace{-0.5em}
+\end{center}
+
+\textbf{Mukhopadhyay, A.} et al. (2020) "Global Driving of Auroral Conductance – Balance of Sources", in prep, \textit{Journal of Geophysical Research - Space Physics}. \vspace{0.5em}
+
+Liemohn et al. (\textbf{Mukhopadhyay, A.}), (2020) "RMSE is Not Enough: Guidelines to Robust Data-Model Comparisons for Magnetospheric Physics", under review in \textit{Journal of Atmospheric and Solar-Terrestrial Physics}. \vspace{0.5em}
+
+\textbf{Mukhopadhyay, A.}, Welling, D. T., Liemohn, M. W., Ridley, A. J., Chakrabarty S. and Anderson, B. J., (2020) "Conductance Model for Extreme Events - Impact of Auroral Conductance on Space Weather Forecasts", under review in \textit{Space Weather}. DOI:\href{https://doi.org/10.1002/essoar.10503207.1}{\underline{10.1002/essoar.10503207.1}}. arXiv:\href{https://arxiv.org/abs/2008.12276}{\underline{abs/2008.12276}}\vspace{0.5em}
+
+\textbf{Mukhopadhyay, A.}, Welling, D. T., Liemohn, M. W. and Jia, X., (2020) "Statistical Comparison of Magnetopause Distances and CPCP Estimations from Global MHD Models", to be submitted in \textit{Frontiers of Astronomy and Space Physics}. Preprint available: DOI:\href{https://doi.org/10.1002/essoar.10502157.1}{\underline{doi:10.1002/essoar.10502157.1}}.\vspace{0.5em}
+
+\textbf{Mukhopadhyay, A.}, van der Holst, B. and Landi, E., (2017) "Numerical Modeling of the Lower Corona during the Total Solar Eclipse of 2010 July 11", \textit{Master's Directive Study Report}. DOI:\href{https://doi.org/10.5281/zenodo.4003116}{\underline{10.5281/zenodo.4003116}}.\vspace{0.5em}
+
+Sharma, N., \textbf{Mukhopadhyay, A.}, Sharma, V., Mukund, M. and Pant, R. S., (2014) "Design and Field Trials of Payload Recovery Device for Tethered Aerostats", \textit{Innovative Design, Analysis and Development Practices in Aerospace and Automotive Engineering Proceedings}, 79 - 84. Springer AG. DOI:\href{https://doi.org/10.1007/978-81-322-1871-5_12}{\underline{10.1007/978-81-322-1871-5\_12}}\vspace{0.5em}
+
+%%%%%%%%%%%%%%%----------------Presentations-------------------%%%%%%%%%%%%%%%%
+\vspace{-0.5em}
+\begin{center}
+{\noindent\rule[0.5ex]{\linewidth}{0.5pt}\\
+\vspace{-0.5em}\large{\textsc{Selected Talks \& Poster %Publications \& 
+Presentations}}\\
+\vspace{-0.25em}
+\noindent\rule[0.5ex]{\linewidth}{0.5pt}}\\
+\vspace{-0.5em}
+\end{center}
+
+% Talks -------------------------
+%\textsc{\large{Oral Presentations}}\vspace{0.75em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Burleigh, M., Ridley, A., Liemohn, M. W., Anderson, B. J. and Gjerloev, J. W. (2019) "Global Driving of the Ionospheric Conductance: ", \textit{Space Science Seminar}, San Francisco, CA. {\color{mich_gold} Invited Talk.} \vspace{0.5em}
+
+\textbf{Mukhopadhyay, A.}, Welling, D. T., Burleigh, M., Liemohn, M. W., Ridley, A., Zou, S., Anderson, B., Vandegriff, E., Connor, H., and Gjerloev, J., (2020) "Global Driving of Auroral Conductance - Impacts and Numerical Considerations", \href{https://gem.epss.ucla.edu/mediawiki/index.php/FG:_3D_Ionospheric_Electrodynamics_and_Its_Impact_on_the_Magnetosphere-Ionosphere-Thermosphere_Coupled_System}{IEMIT} Focus Group Session, \textit{Virtual Geospace Environment Modeling (V-GEM) Workshop} (Held Online due to COVID-19; \href{https://gem.epss.ucla.edu/mediawiki/index.php/FG:_3D_Ionospheric_Electrodynamics_and_Its_Impact_on_the_Magnetosphere-Ionosphere-Thermosphere_Coupled_System#2020_Virtual_GEM_workshop_-_updated_on_July_22.2C_2020}{\color{mich_gold}Link}). \vspace{0.5em}
+
+\textbf{Mukhopadhyay, A.}, Welling, D. T., Liemohn, M. W. and Ridley, A. (2020) "A Study in Skill: Improving dB/dt Forecasts with Advanced Conductance Models", \textit{17th Space Weather Conference} at \textit{Annual Meeting of American Meteorological Society}, Boston, MA. {\color{mich_gold} Awarded Best Student Talk.} \vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Burleigh, M., Ridley, A., Liemohn, M. W., Anderson, B. J. and Gjerloev, J. W. (2019) "Conductance in the Aurora: Influence of Magnetospheric Contributors", \textit{Americal Geophysical Union 2019}, San Francisco, CA. \vspace{0.5em}
+
+\textbf{Mukhopadhyay, A.}, Welling, D. T., Burleigh, M., Liemohn, M. W. and Ridley, A. (2019) "Estimating Auroral Conductance in Global MHD Models", \textit{Monday Science Telecon} (online), hosted by NASA Goddard Space Flight Center, Greenbelt, MD. {\color{mich_gold} Invited Talk.} \vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Liemohn, M. W., Burleigh, M. and Ridley, A., (2019) "Conductance Results from SWMF On St. Patrick’s Day Storm of 2013", \textit{MMV - IEMIT Joint Conductance Challenge, Geospace Environment Modeling Conference}, Santa Fe, NM.\vspace{0.5em}
+
+\textbf{Mukhopadhyay, A.}, Welling, D. T., Ridley, A., Liemohn, M. W. and Burleigh, M., (2019) "Identifying Sources of Auroral Conductance in Global MHD Models", \textit{Geospace Environment Modeling Conference}, Santa Fe, NM. {\color{mich_gold} Awarded Best Poster.} \vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, (2019) "Ionosphere-Thermosphere and the importance of their coupling to the Magnetosphere", \textit{Student Day Tutorial, Geospace Environment Modeling Conference}, Santa Fe, NM.\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Ridley, A., Welling, D. T., Liemohn, M. W. and Burleigh, M., (2019) "Ionospheric Conductance - From a Magnetospheric Perspective", \textit{Conductance Session, CEDAR-GEM Day}, Santa Fe, NM.\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Robinson, R., Liemohn, M. W., Burleigh, M. and Ridley, A., (2019) "Challenges in Space Weather Prediction : Predicting Auroral Conductance in Global MHD Models for Extreme Events", \textit{Michigan Geophysical Union}, Ann Arbor, MI. {\color{mich_gold} Awarded Best Poster.}\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Liemohn, M. W., Zou, S. and Ridley, A., (2018) "Challenges in Space Weather Prediction - Estimation of Auroral Conductance", \textit{American Geophysical Union 2018}, Washington DC.\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.} and Welling, D. T., (2017) "{Statistical Comparison of Performance of Global MHD Models}". \textit{Coupling, Energetics and Dynamics of Atmospheric Regions Conference}, Keystone, CO, USA. {\color{mich_gold} Awarded CCMC Student Contest Award}. %[\href{https://ccmc.gsfc.nasa.gov/RoR_WWW/SWREDI/contest-presentations/2017/Statistical_Comparison_of_MP_Distances_and_CPCP_CCMC_Contest_2_AgnitM.pdf}{\underline{Online Report}}]
+\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T. and Liemohn, M. W. (2018) "{Updates to the Conductance Model for Extreme Events}". \textit{Modeling Methods and Validation Session - Conductance Challenge, MiniGEM Conference}, Arlington, VA, USA. \vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T. and Liemohn, M. W. (2018) "{Updated Auroral Conductance in SWMF}". \textit{Modeling Methods and Validation (MMV) Session - Conductance Challenge, Geospace Environment Modeling Conference}, Santa Fe, NM, USA. \vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.} and Mathpal, R. K., (2015) "{Thermal Response Study of Thermal Protection Systems (TPS) of a Space Capsule during atmospheric Re-entry}". \textit{Engineer's Day Symposium}, Chandigarh, India. \vspace{0.5em}
+
+%Gupta, N., Kiran, A., Shivakumar, R. H. and \textbf{Mukhopadhyay, A.}, (2015) "{A Study of Design and Combustion of a Home-made Rocket Motor}", \textit{National Conference on Advancements and Futuristic Trends in Aerospace Engineering}. 2015 , Chandigarh, India.\vspace{1.5em}
+
+% Posters -------------------------
+%\textsc{\large{Poster Presentations}}\vspace{0.75em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Ridley, A., Liemohn, M. W. and Burleigh, M., (2019) "Identifying Sources of Auroral Conductance in Global MHD Models", \textit{Geospace Environment Modeling Conference}, Santa Fe, NM. {\color{mich_gold} Awarded Best Poster.} \vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Robinson, R., Liemohn, M. W., Burleigh, M. and Ridley, A., (2019) "Challenges in Space Weather Prediction : Predicting Auroral Conductance in Global MHD Models for Extreme Events", \textit{Michigan Geophysical Union}, Ann Arbor, MI. {\color{mich_gold} Awarded Best Poster.}\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Robinson, R., Liemohn, M. W., Burleigh, M. and Ridley, A., (2019) "Predicting Auroral Conductance in Global MHD Models for Extreme Events", \textit{Chapman Conference on Scientific Challenges Pertaining to Space Weather Forecasting Including Extremes}, Pasadena, CA.\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Liemohn, M. W., Zou, S. and Ridley, A., (2018) "Challenges in Space Weather Prediction - Estimating Auroral Conductance in Global MHD Models", \textit{NSF PREEVENTS PI Meeting}, Washington DC, USA.\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T. and Liemohn, M. W., (2018) "Challenges in Space Weather Prediction - Estimating Auroral Conductance in MHD", \textit{Heliophysics Summer School Symposium}, Boulder, CO, USA.\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, Welling, D. T., Liemohn, M. W. and Zou, S., (2018) "Data-Model Comparisons of New Auroral Conductance Model in SWMF", \textit{Coupling, Energetics and Dynamics of Atmospheric Regions Conference}, Santa Fe, NM, USA.\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.} and Welling, D. T., (2018) "{Improved Predictive Techniques of Auroral Conductance in Global MHD Models}". \textit{Geospace Environment Modeling Conference}, Santa Fe, NM, USA. \vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.} and Welling, D. T., (2018) "{Estimation of Ionospheric Conductance in Global MHD Models}". \textit{Michigan Geophysical Union Symposium}, Ann Arbor, MI, USA.\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, van der Holst, B. and Landi, E., (2017) "Numerical Modeling of the Lower Corona during the Total Solar Eclipses", \textit{Solar Heliospheric \& Interplanetary Environment Conference}, Montr\'eal, QC, Canada.\vspace{0.5em}
+
+%\textbf{Mukhopadhyay, A.}, (2017) "{On the Performance of Magnetohydrodynamic Models in the Estimation of Magnetopause Locations}". \textit{Michigan Geophysical Union Symposium}, Ann Arbor, MI, USA.\vspace{0.5em}
+
+%Sharma, N., \textbf{Mukhopadhyay, A.}, Sharma, V., Mukund, M. and Pant, R. S., (2014) "Design and Field Trials of Payload Recovery Device for Tethered Aerostats", \textit{Innovative Design, Analysis and Development Practices in Aerospace and Automotive Engineering Proceedings}, 79 - 84. Lecture Notes in Mechanical Engineering. Springer AG. \href{https://doi.org/10.1007/978-81-322-1871-5_12}{\underline{doi:10.1007/978-81-322-1871-5\_12}}\vspace{0.5em}
+
+
+% %%%%%%%%%%%%%%%----------------Teaching Exp-------------------%%%%%%%%%%%%%%%%
+
+
+% \begin{center}
+% {\noindent\rule[0.5ex]{\linewidth}{0.5pt}
+% \Large{\textsc{Teaching Experience}}
+% \\
+% \noindent\rule[0.5ex]{\linewidth}{0.5pt}}
+% \end{center}
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{mich_yellow}{University of Michigan, Ann Arbor}} & Winter 2017 \\ 
+% \normalsize{\textit{Instructor}: Prof. Mirko Gamba} & \\
+% \normalsize{Grader for AE 225 - Introduction to Gas Dynamics.}&
+% \end{tabular}\\
+
+% \medskip
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{mich_yellow}{Punjab Engineering College}} & \\ 
+% \normalsize{\textit{Instructor}: Prof. T. K. Jindal} & Winter 2016\\
+% \normalsize{Teaching Assistant for AE 215 - Aircraft Propulsion and AE 217 - Aircraft Propulsion and Materials Lab}&
+% \end{tabular}\\
+
+% \medskip
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \normalsize{\textit{Instructor}: Prof. T. K. Jindal} & Fall 2015\\
+% \normalsize{Teaching Assistant for AE 311 - Advanced Aerodynamics and AE 316 - Aerodynamics Lab}&
+% \end{tabular}\\
+
+% \medskip
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{mich_yellow}{Indian Institute of Technology, Bombay}} & Winter 2015 \\ 
+% \normalsize{\textit{Instructor}: Prof. R. S. Pant} & \\
+% \normalsize{Instructional Aide for the Aircraft Design and LTA Systems Lab.}&
+% \end{tabular}\\
+
+
+% %%%%%%%%%%%%%%%----------------Public Outreach-------------------%%%%%%%%%%%%%%%%
+
+
+% \medskip
+% \begin{center}
+% {\noindent\rule[0.5ex]{\linewidth}{0.25pt}
+% \Large{\textsc{Public Outreach}}
+% \\
+% \noindent\rule[0.5ex]{\linewidth}{0.25pt}}\\
+% \end{center}
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{navy_blue}{Indian Students' Association, U of Michigan}} & 2017 - Present \\ 
+% \normalsize{\textit{Secretary, Board Member}} & %\\
+% %\normalsize{Helped organize events on the Indian festivals of Diwali, Holi and Republic Day. Also volunteered to introduce new students to the university.}&
+% \end{tabular}\\
+
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{navy_blue}{The Music Club, Punjab Engineering College}} & 2015 - 2016 \\ 
+% \normalsize{\textit{Secretary, Member since 2012}} & %\\
+% %\normalsize{Responsible for infrastructural and financial organization and general leadership of all flagship musical events within and outside of institute. Organized and led purchase and requisition of musical instruments. Successfully organized events during PECFest 2013, 2014 and 2015}&
+% \end{tabular}\\
+
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{navy_blue}{Aerospace Technical Society, Punjab Engineering College}} & 2015 - 2016 \\ 
+% \normalsize{\textit{Secretary, Member since 2012}} & %\\
+% %\normalsize{Responsible for leading the development of design projects. Successfully held first remotely controlled aircraft competition in institute. Successfully organized events during PECFest 2012, 2013, 2014 and 2015.}&
+% \end{tabular}\\
+
+
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{navy_blue}{Astronomy and Space Physics Society, Punjab Engineering College}} & 2015 - 2016 \\ 
+% \normalsize{\textit{Joint Secretary, Co-Founder}} & %\\
+% %\normalsize{Responsible for the formation and organization of the society. Led research projects in amateur astronomy and space sciences. Successfully formed memberships of the society with international organizations. Successfully organized events during PECFest 2015.}&
+% \end{tabular}\\
+
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{navy_blue}{The English Editorial Board, Punjab Engineering College}} & 2013 - Present \\ 
+% \normalsize{\textit{Editor, Member}} & %\\
+% %\normalsize{Published several articles in yearly magazine. Involved in formal writing for the institute. Designed covers of the RagMag since 2013 successively till 2015. Organized events for the Board during PECFest 2014 and 2015.}&
+% \end{tabular}\\
+
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{navy_blue}{American Geophysical union}} & 2017 - Present \\ 
+% \normalsize{\textit{Student Member}} & 
+% \end{tabular}\\
+
+% \begin{tabular}{p{14.0cm} p{5cm}}
+% \textsc{\textcolor{navy_blue}{American Institute of Aeronautics and Astronautics}} & 2012 - Present \\ 
+% \normalsize{\textit{Student Member}} & 
+% \end{tabular}\\
+
+
+
+% %%%%%%%%%%%%%%%----------------References-------------------%%%%%%%%%%%%%%%%
+
+
+% \begin{center}
+% {\noindent\rule[0.5ex]{\linewidth}{0.25pt}
+% \Large{\textsc{References}}
+% \\
+% \noindent\rule[0.5ex]{\linewidth}{0.25pt}}\\
+% \end{center}
+
+% Available, if requested.
+
+% % \begin{tabular}{p{9cm} p{9cm}}
+% % \textbf{\textcolor{mich_yellow}{Dr. Daniel T Welling}} & \textbf{\textcolor{mich_yellow}{Prof. Michael Liemohn}} \\ 
+% % \normalsize{Climate \& Space Sciences Engineering Department} & \normalsize{Climate \& Space Sciences Engineering Department}\\
+% % \normalsize{University of Michigan, Ann Arbor} & \normalsize{University of Michigan, Ann Arbor}\\
+% % \textcolor{navy_blue}{dwelling@umich.edu} & \textcolor{navy_blue}{liemohn@umich.edu}
+% % \end{tabular}\\
+
+% % \medskip
+% % \begin{tabular}{p{9cm} p{9cm}}
+% % \textbf{\textcolor{mich_yellow}{Dr. Bart van der Holst}} & \textbf{\textcolor{mich_yellow}{Prof. Sanjeev Kumar}} \\ 
+% % \normalsize{Climate \& Space Sciences Engineering Department} & \normalsize{Applied Sciences Department}\\
+% % \normalsize{University of Michigan, Ann Arbor} & \normalsize{Punjab Engineering College, Chandigarh}\\
+% % \textcolor{navy_blue}{bartvand@umich.edu} & \textcolor{navy_blue}{sanjeev@pec.ac.in}
+% % \end{tabular}\\
+
+% \pagebreak
+
+
+% %%%%%%%%%%%%%%%----------------Publications-------------------%%%%%%%%%%%%%%%%
+
+% \begin{center}
+% {\noindent\rule[0.5ex]{\linewidth}{0.5pt}
+% \Large{\textsc{Publications}}
+% \\
+% \noindent\rule[0.5ex]{\linewidth}{0.5pt}}\\
+% \end{center}
+% %\textbf{Mukhopadhyay, A.}, Welling, D. T., (2017) "Statistical Comparisons of Cross Polar Cap Potential estimated by Global MHD Models", \textit{in progress}.\\
+% %
+% \textbf{Mukhopadhyay, A.}, (2016) "Space Debris Charging and Control by Electrodynamics", \textit{Senior Thesis}.\\
+
+% \textbf{Mukhopadhyay, A.}, (2015) "Thermal Response Study of Thermal Protection Systems (TPS) of a Space Capsule during atmospheric Re-entry", \textit{Junior Thesis}.\\
+
+% Sharma, N., \textbf{Mukhopadhyay, A.}, Sharma, V., Mukund, M. and Pant, R. S., (2014) "Design and Field Trials of Payload Recovery Device for Tethered Aerostats", \textit{Innovative Design, Analysis and Development Practices in Aerospace and Automotive Engineering}, 79 - 84. Springer International Publications AG, ISBN:978-81-322-1870-8 (Print) 978-81-322-1871-5 (Online).\\
+
+\end{document}
